@@ -11,3 +11,48 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.text-h1 {
+  font-family: "SF Pro Display";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 20px;
+  color: var(--color-black-text);
+}
+
+.text-body {
+  font-family: "SF Pro Display";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--color-text);
+}
+
+.text-nickname {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-text);
+}
+
+.text-number-tab {
+  font-family: "SF Pro Display";
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--color-black-text);
+}
+
+.text-caption {
+  font-family: "SF Pro Display";
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--color-black-text);
+}

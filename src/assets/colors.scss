@@ -1,10 +1,18 @@
 :root {
-    --color-border: #040405;
-    --color-text: #040405;
-    --color-accent-primary: #ff6a00;
-    --color-accent-border: #fc6a00;
-    --color-red: #fd3b30;
-    --color-black-text: #040405;
-    --color-background: #ffffff;
-  }
+  --color-border: rgba(4, 4, 5, 0.04);
+  --color-border-another: rgba(4, 4, 5, 0.16); /* todo: нормально назвать переменную */
+  --color-text: #040405;
+  --color-accent-primary: #ff6a00;
+  --color-accent-border: #fc690054;
+  --color-red: #fd3b30;
+  --color-red-border: #fd3a305b;
+  --color-black-text: #040405;
+  --color-background: #ffffff;
+  --color-chrome: #f4f4f4;
+}
   
+:root {
+  --color-button-background: var(--color-border);
+  --color-like-button-active: var(--color-red);
+  --color-dislike-button-active: var(--color-text);
+}
